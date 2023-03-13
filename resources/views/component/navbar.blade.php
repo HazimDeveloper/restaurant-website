@@ -9,14 +9,14 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="{{ url('/')}}">Home</a></li>
-          <li><a href="{{ url('/')}}">About</a></li>
-          <li><a href="{{ url('/')}}">Menu</a></li>
-          <li><a href="{{ url('/')}}">Events</a></li>
-          <li><a href="{{ url('/')}}">Chefs</a></li>
-          <li><a href="{{ url('/')}}">Gallery</a></li>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#chefs">Chefs</a></li>
+          <li><a href="#gallery">Gallery</a></li>
      
-          <li><a href="{{ url('/')}}">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
 
           @if (Auth::check())
           
